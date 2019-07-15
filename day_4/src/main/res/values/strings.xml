@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Передача данных</string>
+    <string name="about_text">
+        У лукоморья дуб зелёный;\n
+        Златая цепь на дубе том:\n
+        И днём и ночью <b>кот учёный</b>\n
+        Всё ходит по цепи кругом;\n
+        Идёт <b>направо</b> - песнь заводит,\n
+        <b>Налево</b> - сказку говорит.
+    </string>
+    <string name="about_title">2 активность</string>
+    <string name="main_activity_title">Передача данных</string>
+    <string name="to">Кому</string>
+    <string name="description">Описание</string>
+</resources>
