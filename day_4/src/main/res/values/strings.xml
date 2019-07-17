@@ -12,4 +12,6 @@
     <string name="main_activity_title">Передача данных</string>
     <string name="to">Кому</string>
     <string name="description">Описание</string>
+    <string name="username">Введите имя пользователя</string>
+    <string name="who">Кто воришка?</string>
 </resources>

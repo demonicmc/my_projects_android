@@ -11,10 +11,11 @@ class AboutActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_about)
 
-        val user = intent?.extras?.getString("username") ?: "ЖЫвотное"
-        val gift = intent?.extras?.getString("gift") ?: "дырку от бублика"
+        val to = intent?.getStringExtra("to") ?: "ЖЫвотное"
+        val gift = intent?.getStringExtra("gift") ?: "дырку от бублика"
+        val username = intent?.getStringExtra("username")?: "Аноним"
 
         val infoTextView = findViewById<TextView>(R.id.textView_about_content)
-        infoTextView.text = "$user ,вам передали $gift"
+        infoTextView.text = "$to ,вам передали $gift ота $username"
     }
 }

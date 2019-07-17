@@ -10,13 +10,19 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".DayFourActivity">
+
+        </activity>
+        <activity android:name=".AboutActivity" android:label="@string/about_title">
+
+        </activity>
+        <activity android:name=".Activity_1" android:label="Activity_1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".AboutActivity" android:label="@string/about_title">
+        <activity android:name=".Activity_2" android:label="Activity_2">
 
         </activity>
     </application>
