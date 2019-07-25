@@ -1,1 +1,1 @@
-include ':app', ':day_e', ':day_3', ':day_4'
+include ':app', ':day_e', ':day_3', ':day_4', ':day_5'
