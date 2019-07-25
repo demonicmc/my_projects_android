@@ -16,15 +16,18 @@ class DayFourActivity : AppCompatActivity() {
 
     fun onClick(view: View) {
 
-        val to = findViewById<EditText>(R.id.to)
-        val gift = findViewById<EditText>(R.id.description)
-        val username = findViewById<EditText>(R.id.user_name)
+//        val to = findViewById<EditText>(R.id.to)
+//        val gift = findViewById<EditText>(R.id.description)
+//        val username = findViewById<EditText>(R.id.user_name)
+//
+//        val intent = Intent(this, AboutActivity::class.java)
+//        intent.putExtra("to", to.text.toString())
+//        intent.putExtra("gift", gift.text.toString())
+//        intent.putExtra("username", username.text.toString())
+//
+//        startActivity(intent)
 
-        val intent = Intent(this, AboutActivity::class.java)
-        intent.putExtra("to", to.text.toString())
-        intent.putExtra("gift", gift.text.toString())
-        intent.putExtra("username", username.text.toString())
-
+        val intent = Intent(this, AboutAcitvity2::class.java)
         startActivity(intent)
     }
 }
