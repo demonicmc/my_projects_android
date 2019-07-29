@@ -44,6 +44,7 @@
             app:layout_constraintTop_toBottomOf="@+id/buttonYellow"
             android:onClick="onClick"
     />
+
     <TextView
             android:text="@string/red"
             android:layout_width="wrap_content"
@@ -52,5 +53,16 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonGreen" android:textSize="20sp"/>
+
+    <Button
+            android:text="Toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toast"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            android:onClick="showToast"
+    />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

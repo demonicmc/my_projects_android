@@ -1,8 +1,10 @@
 package ru.cates.day_3
 
 import android.os.Bundle
+import android.view.Gravity
 import android.view.View
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
@@ -35,4 +37,9 @@ class DayThreeActivity : AppCompatActivity() {
         }
     }
 
+    fun showToast(view: View) {
+        val toast = Toast.makeText(applicationContext, "ПОра кормить кота", Toast.LENGTH_SHORT)
+        toast.setGravity(Gravity.CENTER, 0, 0)
+        toast.show()
+    }
 }
